@@ -27,7 +27,6 @@ const greetingSlice = createSlice({
           isLoading: true,
         }))
         .addCase(getGreetings.fulfilled, (state, action) => {
-            console.log(action.payload); // Log greetings in the fulfilled case
             return {
               ...state,
               greetings: action.payload,

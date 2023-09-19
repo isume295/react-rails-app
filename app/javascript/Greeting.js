@@ -9,7 +9,6 @@ const dispatch = useDispatch();
 
 useEffect(() => {
     dispatch(getGreetings());
-    console.log(greetings);
   }, []);
 
 
