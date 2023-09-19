@@ -11,7 +11,6 @@ useEffect(() => {
     dispatch(getGreetings());
   }, []);
 
-
   if (isLoading) {
     return <h1>Loading...</h1>
   }
